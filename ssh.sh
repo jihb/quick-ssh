@@ -3,7 +3,7 @@ HOME_DIR=${HOME}/quick-ssh
 EXPECT=${HOME_DIR}/expect.sh
 CONFIG_LIST=${HOME_DIR}/user.conf
 echo ${HOME}
-echo "\n\033[32m-------Select a host you need login-------\033[0m"
+echo "\n\035[32m-------Select a host you need login-------\033[0m"
 i=0
 cat $CONFIG_LIST| awk 'NR>2' | while read user  host  pwd
 do
