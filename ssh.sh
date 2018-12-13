@@ -8,7 +8,7 @@ i=0
 cat $CONFIG_LIST| awk 'NR>2' | while read user  host  pwd
 do
     let i=$i+1
-    echo "\033[33m[$i]:\033[0m\033[37m$user\033[0m\033[35m<$host>\033[0m"
+    echo "\033[33m[$i]:\033[0m\033[37m$user\033[0m\033[35m<$server>\033[0m"
 done
 echo "\033[32m------------------------------------------\033[0m\n"
 
