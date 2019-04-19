@@ -1,13 +1,16 @@
 # quick-ssh
-quickly ssh 
 
+quickly ssh 
+### 下载
+
+直接git clone 到home目录下
 ### 配置
 
-user             host             pwd                       server
+user             server    pwd                         host
 ***
-jijijiji         xx.xx.xx.xx       xxxxxxxxxxxxx             devxx
+jijijiji         dev       xxxxxxxxxxxxx               xx.xx.xx.xx
 ***
-binbinbin        xx.xx.xx.xx       xxxxxxxxxxxxx             txy
+binbinbin        txy       xxxxxxxxxxxxx               xx.xx.xx.xx
 
 ### 全局命令
 
