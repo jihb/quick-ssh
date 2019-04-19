@@ -1,18 +1,18 @@
 # quick-ssh
-
-quickly ssh 
-### 下载
-
+提前配置好机器名称或者host,以及对应机器的用户和密码，快速的进行ssh登录 
+### 一、 下载
 直接git clone 到home目录下
-### 配置
+### 二、 配置
 
-user             server    pwd                         host
-***
-jijijiji         dev       xxxxxxxxxxxxx               xx.xx.xx.xx
-***
-binbinbin        txy       xxxxxxxxxxxxx               xx.xx.xx.xx
+#### 修改user.conf文件
+    user         server    pwd          host
 
-### 全局命令
+    jijijiji     dev       xxxxxxxx     xx.xx.xx.xx
 
+    binbinbin    txy       xxxxxxxx     xx.xx.xx.xx
+### 三、 设置为全局命令
+
+```
 ln -s $QS_PATH  /usr/local/bin/qs
+```
 
